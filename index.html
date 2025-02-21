@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>byHenryyzzk source</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+      background-color: #000000;
+      color: #ffffff;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header {
+      padding-top: 100px;
+      font-size: 2.5rem;
+      font-weight: 800;
+      letter-spacing: 1px;
+    }
+
+    .content {
+      margin: 10px 0px 35px 0px; 
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .content button {
+      background-color: #000000;
+      color: #ffffff;
+      border: 2px solid #ffffff;
+      padding: 15px 30px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: transform 0.2s, background-color 0.3s;
+    }
+
+    .content button:hover {
+      background-color: #ffffff;
+      color: #000000;
+      transform: scale(1.05);
+    }
+
+    .info {
+      max-width: 800px;
+      margin: -80px auto 40px;
+      padding: 20px;
+      background-color: #000000;
+      border: 2px solid #ffffff;
+      border-radius: 10px;
+      box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.5);
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+    .info h3 {
+      text-align: left;
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+
+    .info p {
+      margin-bottom: 15px;
+      word-spacing: -0.05rem;
+      text-align: left;
+      font-weight: 500;
+    }
+
+    footer {
+      padding: 15px;
+      font-size: 0.9rem;
+      color: #ffffff;
+    }
+    
+    a {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+  </style>
+  <script>
+    function copiarLink() {
+      navigator.clipboard.writeText("https://raw.githubusercontent.com/henryyzzk/byHenryyzzk/refs/heads/main/byHenryyzzk.json");
+      alert("Link Copiado!");
+    }
+
+    function abrirHydra() {
+      window.open("hydralauncher://install-source?urls=https://raw.githubusercontent.com/henryyzzk/byHenryyzzk/refs/heads/main/byHenryyzzk.json");
+    }
+  </script>
+</head>
+<body>
+  <header id="title">byHenryyzzk repacks</header>
+  <div class="content">
+    <button onclick="abrirHydra()">adicionar no hydra</button>
+    <button onclick="copiarLink()">copiar link</button>
+  </div>
+
+  <div class="info">
+    <h3>sobre a fonte</h3>
+    <p>eu criei essa fonte com o intuito de ajudar a comunidade a ter um acesso facilitado a jogos no launcher do hydra fornecendo versões pré-instaladas dos jogos. peço desculpas caso não tenha muitas opções de download, com o tempo,vou adicionando mais e mais jogos :) </p>
+    <h3>acerca dos ainks</h3>
+    <p>eu uso maioritariamente links de sites como <a href="https://steamgg.net/">steamgg</a>, <a href="https://gamdie.com/">gamdie</a>, <a href="https://repack-games.com/">repack-games</a>, <a href="https://gamepcfull.com/">gamepcfull</a> & <a href="https://torrent-games.games/">torrent-games</a>, todos eles estão na <a href="https://old.reddit.com/r/Piracy/wiki/megathread/games">megathread r/piracy</a> do reddit</p>
+  </div>
+
+  <footer>&copy; 2025 henryyzzk</footer>
+</body>
+</html>
